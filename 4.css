@@ -1,0 +1,37 @@
+/**
+* Tout et (min-width: 1600px)
+*
+* Tout plus que 1600px.
+*/
+
+/** $header */
+
+header {
+    top: 80px;
+}
+
+/** $main */
+
+.main div[role="article"] {
+    right: 200px;
+    -moz-transform: rotateY(-25deg);
+    -ms-transform: scale(1);
+    -o-transform: rotateY(-25deg);
+    -webkit-transform: rotateY(-25deg);
+    transform: rotateY(-25deg);
+}
+
+/** $sidebar */
+
+.wrapper {
+    left: 100px;
+    -moz-transform: rotateY(30deg);
+    -ms-transform: translate(0, 0);
+    -o-transform: rotateY(30deg);
+    -webkit-transform: rotateY(30deg);
+    transform: rotateY(30deg);
+}
+
+    .wrapper:hover {
+        left: 100px;
+    }

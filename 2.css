@@ -1,0 +1,145 @@
+/**
+* Tout et (min-width: 800px)
+*
+* Tout plus que 800px - max device width 1366px.
+*/
+
+@media all and (min-height: 800px) {
+    body {
+        background: url(bg1.jpg) no-repeat left top, url(bg2.jpg) no-repeat right top;
+        background-color: transparent;
+        background-attachment: fixed;
+        -moz-background-size: auto 100%, auto 75%;
+        -o-background-size: auto 100%, auto 75%;
+        -webkit-background-size: auto 100%, auto 75%;
+        background-size: auto 100%, auto 75%;
+    }
+}
+
+@media all and (min-height: 1366px) {
+    body {
+        -moz-background-size: auto 100%, auto 50%;
+        -o-background-size: auto 100%, auto 50%;
+        -webkit-background-size: auto 100%, auto 50%;
+        background-size: auto 100%, auto 50%;
+    }
+}
+
+.page-wrapper {
+    margin: 0 auto;
+    padding: 0;
+    width: 760px;
+    background: transparent;
+}
+
+    .page-wrapper::before,
+    .page-wrapper::after {
+        display: none;
+    }
+
+header::before,
+header::after,
+.sommaire::before,
+.sommaire::after,
+.preambule::before,
+.preambule::after,
+.design-selection::before,
+.design-selection::after,
+.design-archives::before,
+.design-archives::after,
+.toulibre-resources::before,
+.toulibre-resources::after,
+.explication::before,
+.explication::after,
+.participation::before,
+.participation::after,
+.benefices::before,
+.benefices::after,
+.exigences > *::before,
+.exigences > *::after,
+footer::before,
+footer::after {
+    position: absolute;
+    left: 0;
+    z-index: -1;
+    width: 360px;
+    content: '';
+}
+
+header::before,
+.sommaire::before,
+.preambule::before,
+.design-selection::before,
+.design-archives::before,
+.toulibre-resources::before,
+.explication::before,
+.participation::before,
+.benefices::before,
+.exigences > *::before,
+footer::before {
+    top: -600px;
+    height: 600px;
+    background: url(hook3.svg) no-repeat center bottom, url(layer-frame.svg) no-repeat center 567px;
+    -moz-background-size: 300px auto, 360px auto;
+    -o-background-size: 300px auto, 360px auto;
+    -webkit-background-size: 300px auto, 360px auto;
+    background-size: 300px auto, 360px auto;
+}
+
+header::after,
+.sommaire::after,
+.preambule::after,
+.design-selection::after,
+.design-archives::after,
+.toulibre-resources::after,
+.explication::after,
+.participation::after,
+.benefices::after,
+.exigences > *::after,
+footer::after {
+    bottom: -33px;
+    height: 33px;
+    background: transparent url(layer-frame.svg) no-repeat center bottom;
+    -moz-background-size: 360px auto;
+    -o-background-size: 360px auto;
+    -webkit-background-size: 360px auto;
+    background-size: 360px auto;
+}
+
+.sidebar {
+    float: left;
+    clear: left;
+}
+
+header,
+.sommaire,
+.preambule,
+.design-selection,
+.design-archives,
+.toulibre-resources,
+.explication,
+.participation,
+.benefices,
+.exigences > *,
+footer {
+    position: relative;
+    float: left;
+    margin: 45px 10px;
+    padding: 0 50px 15px 50px;
+    width: 260px;
+    background: url(layer-middle.svg) repeat-y center top;
+    -moz-background-size: 360px auto;
+    -o-background-size: 360px auto;
+    -webkit-background-size: 360px auto;
+    background-size: 360px auto;
+}
+
+header,
+.sommaire {
+    margin-top: 80px;
+}
+
+.exigences > * {
+    padding: 15px 65px;
+    width: 230px;
+}
