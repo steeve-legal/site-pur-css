@@ -52,7 +52,7 @@ body {
     }
 }
 
-@media all and (max-device-width: 600px) {
+@media all and (max-width: 600px) {
     body {
         background-attachment: fixed;
         -moz-background-size: auto 75%;
