@@ -6,7 +6,6 @@
 
 @media all and (min-height: 800px) {
     body {
-        background: url(bg1.jpg) no-repeat left top, url(bg2.jpg) no-repeat right top;
         background-color: transparent;
         background-attachment: fixed;
         -moz-background-size: auto 100%, auto 75%;
