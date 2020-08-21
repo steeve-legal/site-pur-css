@@ -109,6 +109,7 @@ body {
 /** $intro */
 
 h1 {
+    -epub-hyphens: auto;
     -moz-hyphens: auto;
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
