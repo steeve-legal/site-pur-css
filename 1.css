@@ -25,7 +25,6 @@ html {
 }
 
 body {
-    background: url(bg1.jpg) no-repeat left top, url(bg2.jpg) no-repeat right top;
     background-color: transparent;
     background-attachment: fixed, fixed;
     -moz-background-size: auto 100%, auto 100%;
@@ -36,7 +35,6 @@ body {
 
 @media all and (min-height: 800px) {
     body {
-        background: transparent url(bg2.jpg) no-repeat right top;
         background-attachment: fixed;
         -moz-background-size: auto 75%;
         -o-background-size: auto 75%;
@@ -56,7 +54,6 @@ body {
 
 @media all and (max-device-width: 600px) {
     body {
-        background: transparent url(bg2.jpg) no-repeat right -1px;
         background-attachment: fixed;
         -moz-background-size: auto 75%;
         -o-background-size: auto 75%;
