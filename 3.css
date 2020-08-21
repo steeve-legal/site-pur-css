@@ -8,7 +8,6 @@
 
 body {
     overflow: hidden;
-    background: url(bg1.jpg) no-repeat left top, url(bg2.jpg) no-repeat right top;
     background-color: transparent;
     background-attachment: fixed;
     -moz-background-size: 20% auto, 20% auto;
