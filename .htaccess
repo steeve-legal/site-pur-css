@@ -1,6 +1,6 @@
 # Ceci est un exemple afin de sécuriser ce site et obtenir un A+ au test https://securityheaders.com/
-# Notez que cela fonctionne en auto-hébergement ou chez un hébérgeur, pas sur Github.
-
+# Notez que cela fonctionne en auto-hébergement ou chez un hébergeur, pas sur Github.
+# Remplacez le nom de domaine par le vôtre.
 
 #Redirection HTTPS
 <IfModule mod_rewrite.c>
