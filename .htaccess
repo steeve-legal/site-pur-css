@@ -1,3 +1,6 @@
+# Ceci est un exemple afin de sécuriser ce site et obtenir un A+ au test https://securityheaders.com/
+# Notez que cela fonctionne en auto-hébergement ou chez un hébérgeur, pas sur Github.
+
 
 #Redirection HTTPS
 <IfModule mod_rewrite.c>
@@ -40,7 +43,7 @@ Header set Feature-Policy "geolocation 'none';midi 'none';notifications 'none';p
 
 #CONTENT SECURITY POLICY
 <Ifmodule mod_headers.c>
-Header always set Content-Security-Policy " default-src 'none'; img-src 'self'; script-src 'self'; style-src 'self' ; base-uri https://steeve-legal.github.io/site-pur-css/; report-uri https://steeve-legal.github.io/site-pur-css/ ; upgrade-insecure-requests ; "
+Header always set Content-Security-Policy " default-src 'none'; img-src 'self'; style-src 'self' ; base-uri https://steeve-legal.github.io/site-pur-css/; report-uri https://steeve-legal.github.io/site-pur-css/ ; upgrade-insecure-requests ; "
 </IfModule>
 
 #Autoriser l'utilisation du cache
