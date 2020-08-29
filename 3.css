@@ -681,8 +681,8 @@ footer a::after {
     background-position: right bottom;
 }
 
-    .design-archives ul li,
-    .toulibre-resources ul li {
+    .design-archives li,
+    .toulibre-resources li {
         position: relative;
         padding: 0;
         min-width: 200px;
