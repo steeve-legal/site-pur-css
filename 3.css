@@ -435,6 +435,7 @@ footer {
 
 .toulibre-accessibilité {
     background-position: 0 -225px;
+    width: 75px;
 }
 
 .toulibre-licence {
@@ -580,7 +581,6 @@ footer a::after {
             background: -ms-linear-gradient(top, #452000 45%, #452000 45%, #452000 50%, transparent 50%, transparent 55%, #452000 55%, #452000 100%);
             background: -o-linear-gradient(top, #452000 45%, #452000 45%, #452000 50%, transparent 50%, transparent 55%, #452000 55%, #452000 100%);
             background: -webkit-linear-gradient(top,#452000 45%, #452000 45%, #452000 50%, transparent 50%, transparent 55%, #452000 55%, #452000 100%);
-            background: linear-gradient(to bottom, #452000 45%, #452000 45%, #452000 50%, transparent 50%, transparent 55%, #452000 55%, #452000 100%);
             color: rgba(255,255,255,.95);
             text-indent: 100%;
             -webkit-text-shadow: 0 0 4px black;
