@@ -98,15 +98,6 @@
             margin-top: -280px;
         }
 
-    .design-selection li a.designer-name {
-        background: #000;
-        background: -ms-linear-gradient(top, #111 45%, #111 45%, #111 50%, transparent 50%, transparent 55%, #111 55%, #111 100%);
-        background: linear-gradient(to bottom, #111 45%, #111 45%, #111 50%, transparent 50%, transparent 55%, #111 55%, #111 100%);
-        color: rgba(255,255,255,.95);
-        text-indent: 100%;
-        font-weight: 900;
-        font-size: 25px;
-    }
 }
 
 @media all and (-ms-high-contrast: active), (-ms-high-contrast: none) and (min-width: 1600px) {
