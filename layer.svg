@@ -16,7 +16,37 @@
    sodipodi:docname="layer.svg"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <defs
-     id="defs26" />
+     id="defs26">
+    <filter
+       inkscape:label="Lapping"
+       inkscape:menu="Distort"
+       inkscape:menu-tooltip="Something like a water noise"
+       height="1.3"
+       y="-0.15"
+       width="1.3"
+       x="-0.15"
+       style="color-interpolation-filters:sRGB;"
+       id="filter4560">
+      <feTurbulence
+         numOctaves="5"
+         seed="0"
+         type="fractalNoise"
+         baseFrequency="0.1"
+         result="result1"
+         id="feTurbulence4554" />
+      <feGaussianBlur
+         stdDeviation="2"
+         result="result2"
+         id="feGaussianBlur4556" />
+      <feDisplacementMap
+         scale="50"
+         yChannelSelector="B"
+         xChannelSelector="R"
+         in="SourceGraphic"
+         in2="result2"
+         id="feDisplacementMap4558" />
+    </filter>
+  </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -26,16 +56,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="709"
-     inkscape:window-height="480"
+     inkscape:window-width="1600"
+     inkscape:window-height="827"
      id="namedview24"
      showgrid="false"
-     inkscape:zoom="0.51304348"
+     inkscape:zoom="1"
      inkscape:cx="300"
      inkscape:cy="230"
      inkscape:window-x="0"
      inkscape:window-y="44"
-     inkscape:window-maximized="0"
+     inkscape:window-maximized="1"
      inkscape:current-layer="svg22" />
   <metadata
      id="metadata2">
@@ -45,14 +75,14 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      transform="matrix(0.56146903,0,0,0.568694,-3186.3734,-312.67968)"
      id="g20"
-     style="fill:#005500">
+     style="fill:#005500;filter:url(#filter4560)">
     <g
        transform="matrix(1.25,0,0,1.25,5673.4777,550.24143)"
        fill="#000000"
